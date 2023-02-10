@@ -1,0 +1,62 @@
+/* Estilização geral da página */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Cor do background */
+body {
+    background-color: #f1f1f1;
+}
+
+/* Estilização do h2 */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Posição dos icons */
+.i-r {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilização dos icons */
+.i-r a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: #f14130;
+    color: #ffffff;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+/* Cor do hover */
+.i-r a:hover {
+    background-color: #2c3e50;
+}
+
+/* Duração da animação */
+.i-r a i {
+    transition: 00.4s all;
+}
+
+/* Modelo de animação */
+.i-r a:hover>i {
+    transform: scale(1.6) rotate(360deg);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
