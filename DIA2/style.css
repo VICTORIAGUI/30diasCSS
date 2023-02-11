@@ -1,0 +1,102 @@
+/* Estilização geral da página e da fonte*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+/* Centralização e cor da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+/* Centralizando o h3 dentro da caixa */
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alinhamento do div .loader */
+.loader {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    animation: rotacionar 24s linear infinite;
+}
+
+/* Animação de rotação */
+@keyframes rotacionar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Estilização do h3 */
+h3 {
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #fff,
+        0 0 50px #fff;
+}
+
+/* Estilização e calculo de rotação dos spans */
+.loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(30deg * var(--i)));
+}
+
+/* Estilização dos quadradinhos */
+.loader span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, .15);
+}
+
+/* Estilização da mudança de cor entre os quadradinhos */
+.loader span:nth-of-type(3n + 3)::before {
+    background: #fff;
+    box-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #fff,
+        0 0 50px #fff;
+    animation: animarQuadrado 1.6s linear infinite;
+    transform-origin: 125px;
+}
+
+/* Animação dos quadradinhos */
+@keyframes animarQuadrado {
+    0%,
+    25% {
+        transform: rotate(0deg);
+    }
+
+    75%,
+    100% {
+        transform: rotate(180deg);
+    }
+}
