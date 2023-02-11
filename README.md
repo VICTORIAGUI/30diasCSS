@@ -15,3 +15,28 @@ Esse projeto foi inspirado no desafio da Milena Carecho e irei utilizar a hashta
 
 # Duração
 O meu desafio terá inicio dia 10/02/2023 e fim dia 11/03/2023.
+
+
+
+* [Dia 01 - Ícone de mídia social animado](https://github.com/VICTORIAGUI/30diasCSS/tree/main/DIA1)
+* [Dia 02 - Loader animado](https://github.com/VICTORIAGUI/30diasCSS/tree/main/DIA2)
+
+# Dia 1 - Ícone de midia social animado
+![dia1](https://j.gifs.com/28wvGK.gif)
+
+[Post no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7030007461369516033/)
+
+#### O que eu aprendi:
+* Manipular div
+* Animação com hover
+* Introduzir icons por link
+
+# Dia 2 - Loader animado 
+![Dia2](https://j.gifs.com/pZjQX2.gif)
+
+[Post no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7030308791044706304/)
+
+#### O que eu aprendi:
+* Animação com keyframes
+* Transições
+* nth-of-type
