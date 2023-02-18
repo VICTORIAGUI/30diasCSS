@@ -26,6 +26,7 @@ O meu desafio terá inicio dia 10/02/2023 e fim dia 11/03/2023.
 * [Dia 06 -  Lighting Text](id06)
 * [Dia 07 - Preloader animado](id07)
 * [Dia 08 - Coração Pulsante](id08)
+* [Dia 09 - Barra de pesquisa animado](id09)
 
 
 
@@ -119,3 +120,8 @@ O meu desafio terá inicio dia 10/02/2023 e fim dia 11/03/2023.
 #### O que aprendi:
 * Usar keyframes combinado com o after
 * Melhor uso do keyframes
+
+# Dia 09 - Barra de pesquisa animado <a name='id09'></a>
+![dia9](https://user-images.githubusercontent.com/112903528/219900111-243b4dd5-0d37-49b7-8380-ebc4389e3fed.gif)
+
+[Post no Linkedin](https://www.linkedin.com/posts/victoriagui_30diasdecss-activity-7032821311429054464-6xxc?utm_source=share&utm_medium=member_desktop)
