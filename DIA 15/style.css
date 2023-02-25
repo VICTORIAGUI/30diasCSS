@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+}
+
+.bnt {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border:none;
+    color:dimgray;
+}
+
+.botao {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 600px;
+    width: 100%;
+    outline: 3px solid;
+    outline-color: rgba(71, 126, 232, 0.5);
+    outline-offset: 70px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.botao:hover {
+    color: rgba(71, 126, 232, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 300px;
+}
