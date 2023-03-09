@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    perspective: 200px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #a40505;
+    border-radius: 12px;
+    animation: animarQuadrado 2s linear infinite;
+}
+
+@keyframes animarQuadrado {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateX(0deg) rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+}
